@@ -55,7 +55,7 @@ const Sleep = ({ diary, handleUpdate}) => {
         const data = {
             hours: sleep    
         };
-        console.log("FUCK ME")
+        console.log("This works !")
         axios({
             method: "post",
             url: `http://localhost:8080/sleep`,
